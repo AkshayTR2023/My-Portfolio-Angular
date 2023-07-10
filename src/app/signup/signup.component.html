@@ -1,0 +1,51 @@
+  <body>
+    <h1 style="text-align: center">New User Signup</h1>
+    <div class="col-sm-3" style="margin: auto; height:100vh">
+      <form name="regForm">
+        <div class="mb-3">
+          <label for="userName" class="form-label">Your Name</label>
+          <input
+            type="text"
+            class="form-control"
+            name="userName"
+            id="userName"
+          />
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label"
+            >Your email address</label
+          >
+          <input
+            type="email"
+            class="form-control"
+            id="exampleInputEmail1"
+            aria-describedby="emailHelp"
+            name="userEmail"
+          />
+          <div id="emailHelp" class="form-text">
+            We'll never share your email with anyone else.
+          </div>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Password</label>
+          <input
+            type="password"
+            class="form-control"
+            id="exampleInputPassword1"
+            name="userPwd"
+          />
+        </div>
+        <select
+          name="newletter"
+          class="form-select form-select-sm mb-3"
+          aria-label=".form-select-sm example"
+        >
+          <option value="0" selected>Select Newsletter Type</option>
+          <option value="1">Daily</option>
+          <option value="2">Weekly</option>
+          <option value="3">Monthly</option>
+        </select>
+        <input type="button" class="btn btn-dark" value="Sign up" />
+      </form>
+    </div>
+  </body>
